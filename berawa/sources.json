@@ -1,0 +1,44 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://hotelhistoric.com/",
+ "read_at": "2026-10-30T11:00:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://hotelhistoric.com/",
+   "sha256": "9df095d45281ecc3940c66bdf17784c36f2597d48f2c48a2944f67c2256aa536",
+   "chars": 4535
+  },
+  {
+   "url": "https://hotelhistoric.com/experiencias-en-girona/",
+   "sha256": "13b4ea8a3b66a2073187ad79b19eae36b3687b5235ebbed7d02cf11b5412f691",
+   "chars": 4791
+  },
+  {
+   "url": "https://hotelhistoric.com/habitaciones-del-hotel-historic/",
+   "sha256": "39111c468d1f67a726be5431d9dd99efe788e9a4956fdaf06787f80eea69da7d",
+   "chars": 5192
+  }
+ ],
+ "other_pages_read": [
+  "https://hotelhistoric.com",
+  "https://hotelhistoric.com/aviso-legal/",
+  "https://hotelhistoric.com/cat/",
+  "https://hotelhistoric.com/cat/experiencies-a-girona/",
+  "https://hotelhistoric.com/cat/habitaciones-del-hotel-historic/",
+  "https://hotelhistoric.com/cat/ofertes-de-lhotel-historic/",
+  "https://hotelhistoric.com/cat/regala-historic/",
+  "https://hotelhistoric.com/en/",
+  "https://hotelhistoric.com/en/cookie-policy/",
+  "https://hotelhistoric.com/en/experiences-in-girona/",
+  "https://hotelhistoric.com/en/give-historic/",
+  "https://hotelhistoric.com/en/hotel-historic-offers/",
+  "https://hotelhistoric.com/en/legal-notices/",
+  "https://hotelhistoric.com/en/privacy-policy/",
+  "https://hotelhistoric.com/en/rooms-of-the-hotel-historic/",
+  "https://hotelhistoric.com/ofertas-hotel-historic/",
+  "https://hotelhistoric.com/politica-de-cookies/",
+  "https://hotelhistoric.com/politica-de-privacidad/",
+  "https://hotelhistoric.com/regala-historic/"
+ ]
+}
