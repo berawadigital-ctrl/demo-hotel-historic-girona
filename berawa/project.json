@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hotel-historic-girona",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-30T10:59:00+01:00",
+ "updated_at": "2026-10-30T11:20:00+01:00",
+ "business": {
+  "name": "Hotel Històric",
+  "legal_name": "Allotjaments Call de Girona SL (aviso legal de su web)",
+  "registry_ids": [
+   "B55295729"
+  ],
+  "url": "https://hotelhistoric.com/",
+  "domain": "hotelhistoric.com",
+  "municipality": "Girona",
+  "province": "Girona",
+  "address": "Carrer de Bellmirall 4A · 17004 Girona",
+  "phones": [
+   "+34 972 22 35 83"
+  ],
+  "emails": [
+   "info@hotelhistoric.com"
+  ],
+  "sector": "hotel con encanto en el Barri Vell de Girona"
+ },
+ "rating": {
+  "value": 4.4,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por tel, web)",
+  "url": "https://www.google.com/maps/place/Hotel+Historic/@41.9862637,2.8264929,17z/data=!4m9!3m8!1s0x12bae6e77f995555:0x70d9f02b67ae1022!5m2!4m1!1i2!8m2!3d41.9862637!4d2.8264929!16s%2Fg%2F1vsmv303",
+  "date": "2026-10-29",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "engine",
+  "url": "https://booking.avirato.com/?code=95424272",
+  "note": "motor de reservas real de su web (Avirato, code 95424272, un solo establecimiento en su selector), HTTP 200 comprobado el 30/10/2026 con lang es/en/fr/de."
+ },
+ "audit_original": {
+  "url": "https://hotelhistoric.com/",
+  "date": "2026-10-30T10:53:21+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}
