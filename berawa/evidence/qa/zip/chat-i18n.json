@@ -1,0 +1,376 @@
+{
+ "url": "http://127.0.0.1:42157/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene habitación doble, doble con 2 camas individuales, habitación medieval, Loft, Red Room, Junior Suite, Suite Familiar, Suite Deluxe y la"
+    },
+    {
+     "q": "¿Hay aire acondicionado?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Sí, todas las habitaciones tienen aire acondicionado."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí, las habitaciones tienen conexión wifi gratuita."
+    },
+    {
+     "q": "¿Dónde aparco?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "El hotel no tiene aparcamiento propio. A 4 minutos a pie hay un parking gratuito en la Plaça Josep Ferrater i Mora (si hay sitio) y, de pago"
+    },
+    {
+     "q": "¿Es para familias?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Sí, es un alojamiento pensado para disfrutar en familia y los más pequeños son bienvenidos; hay Suites Familiares."
+    },
+    {
+     "q": "¿Dónde está el hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "En el Carrer de Bellmirall 4A, 17004 Girona, en pleno Barri Vell, a pocos pasos de la Catedral y de la plaza de Sant Domènec."
+    },
+    {
+     "q": "¿A qué distancia está la estación de tren?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está a 20 minutos de la estación de tren y a 25 minutos en coche del Aeropuerto de Girona."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 972 22 35 83 o escribir a info@hotelhistoric"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes buscar disponibilidad y reservar en su motor de reservas (botón Reservar), llamar al +34 972 22 35 83 o escribir a info@hotelhistoric"
+    },
+    {
+     "q": "¿Qué historia tiene el edificio?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "El edificio conserva cimientos romanos y muros de los siglos VIII y IX, con vigas de madera a la vista y muros de piedra originales."
+    },
+    {
+     "q": "¿Qué visitar en Girona?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Su web propone pasear por el Call Jueu, cruzar los puentes sobre el río Onyar y visitar la Catedral de Santa María, con la nave gótica más a"
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 972 22 35 83 · info@hotelhistoric.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 972 22 35 83 · info@hotelhistoric.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Dónde aparco?",
+    "¿Es para familias?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat0",
+    "room1_n"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "There are double rooms, doubles with 2 single beds, a medieval room, the Loft, the Red Room, a Junior Suite, a Family Suite, a Deluxe Suite "
+    },
+    {
+     "q": "Is there air conditioning?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Yes, every room has air conditioning."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes, the rooms have free wifi."
+    },
+    {
+     "q": "Where can I park?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "The hotel has no on-site parking. A 4-minute walk away there is free parking at Plaça Josep Ferrater i Mora (if spaces are available) and, p"
+    },
+    {
+     "q": "Is it family-friendly?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Yes, it is designed for families and children are welcome; there are Family Suites."
+    },
+    {
+     "q": "Where is the hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "At Carrer de Bellmirall 4A, 17004 Girona, in the heart of the Barri Vell, a few steps from the Cathedral and the plaça de Sant Domènec."
+    },
+    {
+     "q": "How far is the train station?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is 20 minutes from the train station and 25 minutes by car from Girona Airport."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can check availability and book on their booking engine (Book button), call +34 972 22 35 83 or email info@hotelhistoric.com. This assis"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can check availability and book on their booking engine (Book button), call +34 972 22 35 83 or email info@hotelhistoric.com. This assis"
+    },
+    {
+     "q": "What is the history of the building?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "The building keeps Roman foundations and 8th- and 9th-century walls, with exposed wooden beams and original stone walls."
+    },
+    {
+     "q": "What to visit in Girona?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Their website suggests strolling through the Call Jueu, crossing the bridges over the river Onyar and visiting the Cathedral of Santa María,"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 972 22 35 83 · info@hotelhistoric.com."
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 972 22 35 83 · info@hotelhistoric.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Where can I park?",
+    "Is it family-friendly?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k",
+    "stat0",
+    "room1_n"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il y a des chambres doubles, des doubles avec 2 lits simples, une chambre médiévale, le Loft, la Red Room, une Junior Suite, une Suite Famil"
+    },
+    {
+     "q": "Y a-t-il la climatisation ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Oui, toutes les chambres sont climatisées."
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui, les chambres ont le wifi gratuit."
+    },
+    {
+     "q": "Où me garer ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "L’hôtel n’a pas de parking. À 4 minutes à pied, parking gratuit Plaça Josep Ferrater i Mora (selon disponibilité) et, payant, le parking SAB"
+    },
+    {
+     "q": "Est-ce adapté aux familles ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Oui, c’est un lieu pensé pour les familles et les enfants sont les bienvenus ; il y a des Suites Familiales."
+    },
+    {
+     "q": "Où se trouve l’hôtel ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Carrer de Bellmirall 4A, 17004 Gérone, en plein Barri Vell, à quelques pas de la cathédrale et de la place de Sant Domènec."
+    },
+    {
+     "q": "À quelle distance est la gare ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Il est à 20 minutes de la gare et à 25 minutes en voiture de l’aéroport de Gérone."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 972 22 35 83 ou écrire à "
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez vérifier la disponibilité et réserver sur leur moteur de réservation (bouton Réserver), appeler le +34 972 22 35 83 ou écrire à "
+    },
+    {
+     "q": "Quelle est l’histoire du bâtiment ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Le bâtiment conserve des fondations romaines et des murs des VIIIe et IXe siècles, avec poutres apparentes et murs en pierre d’origine."
+    },
+    {
+     "q": "Que visiter à Gérone ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Leur site propose de flâner dans le Call Jueu, de traverser les ponts sur l’Onyar et de visiter la cathédrale Santa María, à la nef gothique"
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 972 22 35 83 · info@hotelhistoric.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 972 22 35 83 · info@hotelhistoric.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Où me garer ?",
+    "Est-ce adapté aux familles ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k",
+    "stat0"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt Doppelzimmer, Doppelzimmer mit 2 Einzelbetten, ein mittelalterliches Zimmer, das Loft, den Red Room, eine Junior Suite, eine Familie"
+    },
+    {
+     "q": "Gibt es eine Klimaanlage?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Ja, alle Zimmer haben eine Klimaanlage."
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Ja, die Zimmer haben kostenloses WLAN."
+    },
+    {
+     "q": "Wo kann ich parken?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Das Hotel hat keinen eigenen Parkplatz. 4 Gehminuten entfernt gibt es einen kostenlosen Parkplatz an der Plaça Josep Ferrater i Mora (sofern"
+    },
+    {
+     "q": "Ist es familienfreundlich?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Ja, das Haus ist auf Familien ausgerichtet und Kinder sind willkommen; es gibt Familiensuiten."
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "In der Carrer de Bellmirall 4A, 17004 Girona, mitten im Barri Vell, wenige Schritte von der Kathedrale und der Plaça de Sant Domènec."
+    },
+    {
+     "q": "Wie weit ist der Bahnhof?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Es liegt 20 Minuten vom Bahnhof und 25 Autominuten vom Flughafen Girona entfernt."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 972 22 35 83 anrufen oder an info@hotelh"
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können über die Buchungsmaschine (Schaltfläche Buchen) die Verfügbarkeit prüfen und buchen, +34 972 22 35 83 anrufen oder an info@hotelh"
+    },
+    {
+     "q": "Welche Geschichte hat das Gebäude?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Das Gebäude bewahrt römische Fundamente und Mauern aus dem 8. und 9. Jahrhundert, mit sichtbaren Holzbalken und originalen Steinmauern."
+    },
+    {
+     "q": "Was kann man in Girona besichtigen?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Die Website empfiehlt einen Spaziergang durch das Call Jueu, die Brücken über den Onyar und die Kathedrale Santa María mit dem breitesten go"
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 972 22 35 83 · info@hotelhistoric.com."
+    },
+    {
+     "q": "Haben Sie ein Schwimmbad?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 972 22 35 83 · info@hotelhistoric.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Wo kann ich parken?",
+    "Ist es familienfreundlich?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
